@@ -62,17 +62,11 @@ header {
       max-width: 90%;
     }
 
-  section {
+  .section {
     background-color: #fff;
     display: block;
   }
-  header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-  }
- 
+
   .carousel-inner .carousel-item > img {
     display: block;
 }
@@ -106,11 +100,23 @@ header {
     }
 
     .comidas_tipicas {
-      padding-top: 500px;
+      padding-top: 600px;
     }
 
     #carousel-aline {
       display: block;
       padding-top: 100px;
+    }
+    header .container {
+      flex-direction: column;
+    }
+
+    .tab-content {
+      flex-direction: column;
+      display: block;
+    }
+
+    .carousel {
+      display: flex;
     }
   }
