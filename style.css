@@ -55,3 +55,62 @@ header {
   #produtos {
     padding-top: 300px;
   }
+
+  @media screen and (max-width: 767px) {
+    .container {
+      display: block;
+      max-width: 90%;
+    }
+
+  section {
+    background-color: #fff;
+    display: block;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+  }
+ 
+  .carousel-inner .carousel-item > img {
+    display: block;
+}
+  
+    #inicio {
+      display: block;
+    }
+  
+    #cabecalho {
+      font-family: 'Oswald', sans-serif;
+      background-color: rgb(17, 0, 255);
+      color: #fff;
+      font-style: italic;
+  
+    }
+  
+    .card-header {
+      background-color: RED;
+      color: #FFF;
+      display: block;
+    }
+  
+    #texto-pratos {
+      font-size: 25px;
+      font-weight: bolder;
+      color: red;
+    }
+  
+    #produtos {
+      display: block;
+    }
+
+    .comidas_tipicas {
+      padding-top: 500px;
+    }
+
+    #carousel-aline {
+      display: block;
+      padding-top: 100px;
+    }
+  }
